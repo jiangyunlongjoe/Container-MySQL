@@ -12,5 +12,5 @@ spec:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
   nfs:
-    path: /data/k8s
+    path: /data/k8s/mysql-pv-0
     server: 192.168.159.20
