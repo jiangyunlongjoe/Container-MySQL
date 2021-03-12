@@ -157,7 +157,8 @@ spec:
   - metadata:
       name: data
     spec:
+      storageClassName: manual
       accessModes: ["ReadWriteOnce"]
       resources:
         requests:
-          storage: 10Gi
+          storage: 1Gi
